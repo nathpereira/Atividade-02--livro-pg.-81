@@ -1,0 +1,14 @@
+string nome;
+double media;
+            
+            
+Console.WriteLine("Digite o nome do aluno");
+nome = Console.ReadLine();
+            
+Console.WriteLine($" Digite a média do (a) {nome} ");
+media = double.Parse(Console.ReadLine());
+
+if (media >= 6.0)
+{
+  Console.WriteLine("Esse aluno foi aprovado");
+}   
